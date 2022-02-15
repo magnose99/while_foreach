@@ -27,7 +27,7 @@ namespace while_foreach
                karakter ++; 
             }
             Console.WriteLine("***Foreach***");
-            string[] arabalar = {"BMW,FORD,TOYATA,NİSSAN"};
+            string[] arabalar = {"BMW","FORD","TOYATA","NİSSAN"};
             foreach (var araba in arabalar)
             {
                 Console.WriteLine(araba);
